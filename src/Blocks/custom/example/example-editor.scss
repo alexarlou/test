@@ -1,0 +1,11 @@
+// Style for example block in editor
+
+.block-example{
+  &__image{
+    z-index: unset;
+  }
+  &__heading, &__secondHeading, &__paragraph, &__secondParagraph{
+    position: relative;
+    z-index: 1;
+  }
+}

@@ -1,0 +1,184 @@
+{
+	"$schema": "https://raw.githubusercontent.com/infinum/eightshift-frontend-libs/develop/schemas/block.json",
+	"blockName": "example",
+	"title": "Example",
+	"description" : "Example Description",
+	"category": "eightshift",
+	"icon": {
+		"src": "es-example"
+	},
+	"keywords": [
+		"Example Keyword"
+	],
+  "components": {
+    "image": "image",
+    "secondImage": "image",
+    "heading": "heading",
+    "secondHeading": "heading",
+    "paragraph": "paragraph",
+    "secondParagraph": "paragraph"
+  },
+	"example": {
+		"attributes": {
+			"exampleHeadingContent": "Lorem ipsum",
+      "exampleParagraphContent": "DDolor sit amet, consectetur adipiscing elit. Nam aliquam est id semper aliquet. Aenean accumsan lacus justo, a lacinia turpis semper condimentum.",
+      "exampleImage": "https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG",
+      "exampleSecondImage": "https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG"
+		}
+	},
+	"attributes": {
+    "exampleHeadingContent": {
+			"type": "string",
+      "default": ""
+		},
+    "exampleSecondHeadingContent": {
+			"type": "string",
+      "default": ""
+		},
+    "exampleParagraphContent": {
+			"type": "string",
+      "default": ""
+		},
+    "exampleSecondParagraphContent": {
+			"type": "string",
+      "default": ""
+		},
+    "exampleImage": {
+			"type": "string",
+      "default": ""
+		},
+    "exampleSecondImage": {
+			"type": "string",
+      "default": ""
+		},
+		"exampleHeadingSize": {
+			"type": "integer",
+      "default": "1"
+		},
+    "exampleHeadingColor": {
+			"type": "string",
+      "default": "blue"
+		},
+    "exampleParagraphColor": {
+			"type": "string",
+      "default": "black"
+		},
+    "exampleParagraphAlign": {
+			"type": "string",
+			"default": "left"
+		},
+    "exampleSecondParagraphAlign": {
+			"type": "string",
+			"default": "left"
+		},
+    "exampleHeadingAlign": {
+			"type": "string",
+			"default": "left"
+		},
+    "exampleSecondHeadingAlign": {
+			"type": "string",
+			"default": "left"
+		}
+	},
+  "options": {
+    "exampleHeadingAlign": [
+			{
+				"label": "Left",
+				"value": "left",
+				"icon": "textAlignLeft"
+			},
+			{
+				"label": "Center",
+				"value": "center",
+				"icon": "textAlignCenter"
+			},
+			{
+				"label": "Right",
+				"value": "right",
+				"icon": "textAlignRight"
+			}
+		],
+    "exampleSecondHeadingAlign": [
+			{
+				"label": "Left",
+				"value": "left",
+				"icon": "textAlignLeft"
+			},
+			{
+				"label": "Center",
+				"value": "center",
+				"icon": "textAlignCenter"
+			},
+			{
+				"label": "Right",
+				"value": "right",
+				"icon": "textAlignRight"
+			}
+		],
+		"exampleParagraphAlign": [
+			{
+				"label": "Left",
+				"value": "left",
+				"icon": "textAlignLeft"
+			},
+			{
+				"label": "Center",
+				"value": "center",
+				"icon": "textAlignCenter"
+			},
+			{
+				"label": "Right",
+				"value": "right",
+				"icon": "textAlignRight"
+			}
+		],
+    "exampleSecondParagraphAlign": [
+			{
+				"label": "Left",
+				"value": "left",
+				"icon": "textAlignLeft"
+			},
+			{
+				"label": "Center",
+				"value": "center",
+				"icon": "textAlignCenter"
+			},
+			{
+				"label": "Right",
+				"value": "right",
+				"icon": "textAlignRight"
+			}
+		]
+	},
+  "variables": {
+    "exampleHeadingAlign": [
+			{
+				"variable": {
+					"example-block-heading-align": "%value%"
+				}
+			}
+		],
+    "exampleSecondHeadingAlign": [
+			{
+				"variable": {
+					"example-block-secondHeading-align": "%value%"
+				}
+			}
+		],
+		"exampleParagraphAlign": [
+			{
+				"variable": {
+					"example-block-paragraph-align": "%value%"
+				}
+			}
+		],
+    "exampleSecondParagraphAlign": [
+			{
+				"variable": {
+					"example-block-secondParagraph-align": "%value%"
+				}
+			}
+		]
+	}
+
+}
